@@ -1,24 +1,55 @@
-<style>
-    body {
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: gray;
-    }
-</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Invaders</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgb(244,55,17);
+            background: linear-gradient(180deg, rgba(244,55,17,1) 0%, rgba(228,206,31,1) 50%, rgba(58,112,210,1) 100%);
+            font-family: 'Anton', sans-serif;
+        }
+        h1 {
+            font-size: 5rem;
+            margin-right: 20px;
+        }
+    </style>
 
-
-
-<div style="position: relative;">
-    <p style="position: absolute; z-index: 5; color: white; left: 10px; top: 10px; margin: 0;"> 
-
-        <span>Score:</span> <span id="scoreEl">0</span> 
     
-    </p>
-    <canvas></canvas>
-</div>
+    <div style="position: relative;">
+        <h1>Space Invaders</h1>
+        <p style="position: absolute; z-index: 5; color: white; left: 10px; top: 200px; margin: 0;"> 
+    
+            <span>Score:</span> <span id="scoreEl">0</span> 
+        
+        </p>
+        <canvas></canvas>
 
-<script src="./index.js"></script>
+        <h2>Press SPACE to fire </h2>
+    <h2>Control your ship with A and D</h2>
+    </div>
+
+    
+
+    
+    <script src="./index.js"></script>
+</body>
+</html>
+
+
+
+
+
 
